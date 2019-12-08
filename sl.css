@@ -1,0 +1,27 @@
+.mainpage {
+	background-color:#fbfbfb;
+	background-image:url(/images/background.gif);
+	}
+.subpage {
+	background-color:#fbfbfb;
+	background-image:url(/images/background-sub.gif);
+	}
+.discussionpage {
+	background-image:url(/images/background-forum.png);
+	background-color:#fbfbff;
+	}
+.messagepage {
+	background-color:#faf4e6;
+	color:black;
+	}
+
+.left-mainpage { background-color: #ffffdd; }
+.left-subpage  { background-color: #ffffdd; }
+.left-discussionpage { background-color: #ffffdd; }
+.left-messagepage { background-color: #ffffdd; }
+
+
+#leftpane div {
+	background-color:#ffe;
+	border:1px solid #eeb;
+	}

@@ -1,0 +1,399 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copy of living page at Sensei's Library, https://senseis.xmp.net/
+     (OC) the Authors of the page
+     Published under the OpenContent License V1.0
+     Arno and Morten, 2019-10-10     GoWiki by Arno and Morten, based on PhpWiki
+-->
+<html>
+<head><title>Sensei's Library: Rules of Go - introductory</title>
+
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <META NAME="description"
+          CONTENT="Sensei's Library, page: Rules of Go - introductory, keywords: Rules. SL is a large WikiWikiWeb about the game of Go (Baduk, Weiqi). It's a collaboration and community site. Everyone can add comments or edit pages.">
+
+    <link rel="stylesheet" type="text/css" media="print" href="../../images/print-dump.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../images/main-dump.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../images/sl.css">
+</head>
+
+<body id="browse" class="mainpage">
+
+<div id="contentwrapper" class="left-mainpage">
+    <div id="contentpane" class="mainpage">
+        <div class="contentsize"><h1 id="pagetitle">바둑의 규칙 - 입문</h1></div>                <div id="pageheaders">
+              &nbsp; <u>난이도</u>: <span class="link">입문</span> &nbsp; <u>키워드</u>: <span class="link">규칙</span>                    </div>
+
+        <div class="contentsize">
+            
+<p>이 페이지에서는 바둑의 규칙을 소개합니다. 이러한 규칙을 사용하면 첫 번째 게임을 빠르게 시작할 수 있습니다.
+</p>
+
+<p>
+<table id='toc' cellspacing=3><tr><td><b>목차</b><div class='toc1'><a href='#toc1'>1. 플레이어</a></div>
+<div class='toc1'><a href='#toc2'>2. 바둑판</a></div>
+<div class='toc1'><a href='#toc3'>3. 지점</a></div>
+<div class='toc1'><a href='#toc4'>4. 돌</a></div>
+<div class='toc1'><a href='#toc5'>5. 착수</a></div>
+<div class='toc1'><a href='#toc6'>6. 게임시작</a></div>
+<div class='toc1'><a href='#toc7'>7. 잡는 법</a></div>
+<div class='toc2'><a href='#toc8'>예제 1: 한 점을 잡는 법</a></div>
+<div class='toc2'><a href='#toc9'>예제 2: 귀에서 세 점을 잡는 법</a></div>
+<div class='toc2'><a href='#toc10'>예제 3: 두 점을 잡는 법</a></div>
+<div class='toc2'><a href='#toc11'>예제 4: 바깥수가 없는 돌을 잡는 법</a></div>
+<div class='toc1'><a href='#toc12'>8. 반복 금지</a></div>
+<div class='toc1'><a href='#toc13'>9. 끝내기</a></div>
+<div class='toc1'><a href='#toc14'>10. 더 많은 학습</a></div></td>
+
+</tr></table>
+
+
+<div class="hr"><hr></div>
+
+<h2><a name='toc1'></a>1. 플레이어
+</h2>
+<div><a name='diag1'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/6/bad4ed86e7cdd337016d44684d4b9a37.sgf"><img src="../../diagrams/6/bad4ed86e7cdd337016d44684d4b9a37.png" alt="[Diagram]"  border=0 width='96' height='96'></a><p>흑과 백</p></div>
+
+<p>바둑은 <a href="../B/black.html">흑</a> 과 <a href="../W/white.html">백</a> 이라 불리는 두 명의 플레이어가 합니다.
+</p>
+<div style="clear:both;height:1px"></div></div>
+<div class="hr"><hr></div>
+
+<h2><a name='toc2'></a>2. 바둑판
+</h2>
+
+<p>바둑판은 아래와 같이 가로 및 세로 선으로 구성된 격자모양입니다.
+</p>
+<div><a name='diag2'></a><div class='diagclear'></div><div class='diagram' style='width:451px'><a href="../../diagrams/29/ad217a381dbb8bc75d8420f6aec40af5.sgf"><img src="../../diagrams/29/ad217a381dbb8bc75d8420f6aec40af5.png" alt="[Diagram]"  border=0 width='441' height='441'></a><p>19x19 바둑판</p></div>
+
+<p>표준 바둑판의 크기는 19x19 입니다.
+</p>
+
+<p>9x9 나 13x13 과 같은 다른 바둑판 크기들도 역시 게임하는데, 대게 초보자나 더 짧은 게임을 원하는 플레이어들이 합니다.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag3'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/48/76c03db1b9dfc49b9e74ed4e565809f1.sgf"><img src="../../diagrams/48/76c03db1b9dfc49b9e74ed4e565809f1.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>5x5 바둑판</p></div>
+
+<p>이 페이지에는, 5x5 바둑판 예제가 나와 있으며, 이는 플레이어가 일반적으로 사용하는 크기에 비해 작습니다. 바둑판의 크기는 규칙에 영향을 주지 않습니다.
+</p>
+<div style="clear:both;height:1px"></div></div>
+<div class="hr"><hr></div>
+
+<h2><a name='toc3'></a>3. 지점
+</h2>
+
+<p>바둑판의 선은 서로 교차하거나 접촉하는 곳마다 교차로가 있습니다. 각 교차로를 <strong>점</strong>이라고 합니다. 바둑판의 네 모서리와 가장자리에 있는 교차로를 <strong>점</strong>이라고도 합니다.
+</p>
+
+<p><em>바둑은 정사각형이 아닌 바둑판의 점에서 게임을 합니다.</em>
+</p>
+<div><a name='diag4'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/48/bef5238a32a1c5661c1a1d5e7a11767b.sgf"><img src="../../diagrams/48/bef5238a32a1c5661c1a1d5e7a11767b.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>두 점</p></div>
+
+<p>예제에는 25개의 점이 있습니다. 빨간색 원은 중앙 근처에 있는 점을 정확히 가리키고 있습니다. 빨간색 사각은 귀의 한 점을 나타냅니다.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag5'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/11/3b2ded2ec4f3587cbb3462b220f4dc70.sgf"><img src="../../diagrams/11/3b2ded2ec4f3587cbb3462b220f4dc70.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>Adjacency</p></div>
+
+<p>Two points connected by a line segment are said to be adjacent or next to each other. Stones that are all adjacent to one another are called a <strong>string</strong>.
+</p>
+
+<p>The two white stones in this diagram are adjacent to each other and are a string.
+</p>
+
+<p>The two black stones are not adjacent to each other.
+</p>
+<div style="clear:both;height:1px"></div></div>
+<div class="hr"><hr></div>
+
+<h2><a name='toc4'></a>4. 돌
+</h2>
+
+<p>흑은 흑돌 (<img src='../../images/stones/b.gif' alt='B' class='stone'>)을 사용하고, 백은 백돌 (<img src='../../images/stones/w.gif' alt='W' class='stone'>)을 사용합니다.
+</p>
+<div><a name='diag6'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/11/a2f5d1430ccb6672475f78c8d3666042.sgf"><img src="../../diagrams/11/a2f5d1430ccb6672475f78c8d3666042.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>Some stones</p></div>
+
+<p>예제에는 4개의 흑돌과 3개의 백돌로 이루어진 바둑판을 보여줍니다.
+</p>
+
+<p>The points on which any stone is put are called <strong>occupied</strong>.
+All other points are called <strong>unoccupied</strong> or <strong>empty</strong>.
+</p>
+<div style="clear:both;height:1px"></div></div>
+<div class="hr"><hr></div>
+
+<p><em>바둑을 두기 위해 바둑돌을 사용할 필요는 없습니다. 포커칩, 구슬, 단추, 동전 등 가지고 있는 것을 이용해 바둑을 둘 수 있습니다. 또한, 사용자가 게임을 할 때 종이에 격자모양을 그리고 교차로에 O 와 X 를 표시하여 바둑게임을 할 수 있습니다.</em>
+</p>
+
+<div class="hr"><hr></div>
+
+<h2><a name='toc5'></a>5. Play
+</h2>
+
+<p>플레이어는 번갈아 가며 게임을 합니다.
+</p>
+
+<p>자기 차례인 플레이어는 돌 하나를 빈 지점에 놓습니다.
+</p>
+<div><a name='diag7'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/11/a2f5d1430ccb6672475f78c8d3666042.sgf"><img src="../../diagrams/11/a2f5d1430ccb6672475f78c8d3666042.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 두기 이전</p></div>
+<div style="clear:both;height:1px"></div></div><div><a name='diag8'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/19/80f3ddec01c60e63e301a31705ef8226.sgf"><img src="../../diagrams/19/80f3ddec01c60e63e301a31705ef8226.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>백이 <img src='../../images/stones/w1.gif' alt='W1' class='stone'>의 곳에 돌을 둠.</p></div>
+<div style="clear:both;height:1px"></div></div><div><a name='diag9'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/4/9cc5943a323e6372d32255315fd9255d.sgf"><img src="../../diagrams/4/9cc5943a323e6372d32255315fd9255d.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 둔 이후</p></div>
+
+<p><br clear=all>
+</p>
+
+<p>때때로, 움직임을 마무리하기 위해서, 플레이어는 바둑판에서 돌을 제거합니다.
+</p>
+
+<p>때로는 특정 차례에서 둘 수 없는 지점이 있습니다.
+</p>
+
+<p>플레이어는 차례대로 돌을 두는 대신 <strong>통과</strong>를 할 수 있습니다.
+</p>
+<div style="clear:both;height:1px"></div></div>
+<div class="hr"><hr></div>
+
+<p><em>일단 돌을 바둑판에 올려놓으면, 돌을 잡아내지 않는 한 <strong>움직이지 않습니다</strong>.</em>
+</p>
+
+<div class="hr"><hr></div>
+
+<h2><a name='toc6'></a>6. 게임 시작
+</h2>
+
+<p>바둑 게임은 핸디캡을 가지고 두지 않는 한, 빈 바둑판으로 시작하고 흑이 먼저 둡니다.
+</p>
+<div><a name='diag10'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/48/76c03db1b9dfc49b9e74ed4e565809f1.sgf"><img src="../../diagrams/48/76c03db1b9dfc49b9e74ed4e565809f1.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>빈 바둑판</p></div>
+<div style="clear:both;height:1px"></div></div><div><a name='diag11'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/19/2cc59e68e803301b727c5031c0254fe8.sgf"><img src="../../diagrams/19/2cc59e68e803301b727c5031c0254fe8.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>흑이 먼저 시작</p></div>
+
+<p>예제에서 흑은 <img src='../../images/stones/b1.gif' alt='B1' class='stone'>에서 시작하도록 선택합니다.
+</p>
+<div style="clear:both;height:1px"></div></div>
+<div class="hr"><hr></div>
+
+<p><em>만약 한 플레이어가 다른 플레이어보다 더 많은 경험을 가지고 있다면, 플레이어들은 <strong><a href="../H/handicap.html">핸디캡</a></strong>을 가지고 게임을 할 수 있습니다. 즉, 경험이 적은 플레이어가 흑 돌을 들고 이미 바둑판에 있는 몇 개의 돌로 시작한다는 뜻입니다. 핸디캡은 약간의 실력차를 가진 플레이어들을 위해 바둑을 더욱 즐겁게 해줍니다.</em>
+</p>
+
+<div class="hr"><hr></div>
+
+<h2><a name='toc7'></a>7. 돌을 잡는 법
+</h2>
+
+<p><strong>돌을 잡는 규칙:</strong> 플레이어가 모든 인접한 지점에서 상대방의 돌을 둘러싸면, 반대되는 돌은 잡혀서 바둑판에서 제거됩니다.
+</p>
+
+<p>모든 돌이나 <a href="../S/string.html">돌의 무리들</a> 은 비어 있는 인접 지점이 하나 이상 있어야 합니다. 이 비어있는 지점을 <strong><a href="../L/libertyintroductory.html">바깥수</a></strong>라고 부릅니다. 돌의 무리들에 붙어 있는 인접 돌은 바깥수를 공유하며, 돌에는 바깥수가 있다고 합니다.
+</p>
+
+<p>돌이나 돌의 무리들 옆에 빈 점이 없으면 (즉, 바깥수가 없음), 돌은 바둑판에서 제거됩니다. 유일한 예외는 잡은 돌이 제거될 때까지 바깥수가 없을 수 있다는 것입니다: <a href="#example4">예제 4</a>를 보십시오.
+</p>
+
+<h3><a name='toc8'></a>예제 1: 한 돌을 잡는 법
+</h3>
+<div><a name='diag12'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/0/7cac8afadce46df1d520ee56b4eece8b.sgf"><img src="../../diagrams/0/7cac8afadce46df1d520ee56b4eece8b.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 두기 이전</p></div>
+
+<p>백돌이 <a href="../A/atari.html">거의 둘러쌓여</a> 있습니다. <img src='../../images/stones/es.gif' alt='square' class='stone'>으로 표시된 비어 있는 하나의 지점에만 인접합니다. 따라서, 그 돌은 오직 하나의 바깥수만을 가지고 있습니다.
+</p>
+
+<p>명심하세요: 오직 <strong>인접한</strong> 지점만이 바깥수가 있습니다. 그래서 <img src='../../images/stones/ex.gif' alt='cross' class='stone'> 는 바깥수가 없습니다.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag13'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/48/ceb2245b3fbf4c62872f4bdf2796ac95.sgf"><img src="../../diagrams/48/ceb2245b3fbf4c62872f4bdf2796ac95.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>흑이 돌을 잡음</p></div>
+
+<p>흑이 <img src='../../images/stones/b1.gif' alt='B1' class='stone'> 로 둔 수는 백돌의 마지막 바깥수를 차지하면 완전히 둘러쌉니다. 따라서, 그것은 잡혀서 바둑판에서 제거될 것입니다.
+.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag14'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/13/6e7dc384eb2e8b494e097f38d4259bcb.sgf"><img src="../../diagrams/13/6e7dc384eb2e8b494e097f38d4259bcb.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 잡은 이후</p></div>
+
+<p>잡힌 돌이 바둑판에서 제거됐습니다.
+</p>
+
+<p><br clear=all>
+</p>
+
+<h3><a name='toc9'></a>예제 2: 귀에 있는 석 점을 잡는 법
+</h3>
+<div style="clear:both;height:1px"></div></div><div><a name='diag15'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/41/49d804c30e36bd3cf3666a6d76f39644.sgf"><img src="../../diagrams/41/49d804c30e36bd3cf3666a6d76f39644.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 잡기 전</p></div>
+
+<p>세 개의 백돌 <img src='../../images/stones/wc.gif' alt='white+circle' class='stone'>은 서로 인접해 있으며 바깥수를 공유합니다. As a string, the stones stand or fall together.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag16'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/13/de7fff7753cf93083a63edbe87b780fc.sgf"><img src="../../diagrams/13/de7fff7753cf93083a63edbe87b780fc.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>흑이 백 3점을 잡음</p></div>
+
+<p>흑의 <img src='../../images/stones/b1.gif' alt='B1' class='stone'> 은 백의 마지막 바깥수를 차지하여 그들을 사로잡아, 바둑판에서 제거합니다.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag17'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/13/5459bc2cc78a87109b481c35807df2f9.sgf"><img src="../../diagrams/13/5459bc2cc78a87109b481c35807df2f9.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 잡은 후</p></div>
+
+<p><br clear=all>
+</p>
+
+<h3><a name='toc10'></a>예제 3: 두 개의 돌의 무리를 잡는 법
+</h3>
+
+<p>모든 돌들이 무리들로 연결되어 있지 않더라도, 동시에 다른 돌들을 둘러쌀 수도 있습니다.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag18'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/22/ddb7ff6653d92f894f4d640d18372759.sgf"><img src="../../diagrams/22/ddb7ff6653d92f894f4d640d18372759.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 잡기 전</p></div>
+
+<p>여기, <strong>a</strong> 는 두 개의 분리된 돌의 무리의 유일한 바깥수입니다: 위에 있는 네 개의 백 돌과 가운데에 있는 하나의 백 돌.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag19'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/37/006a7e6624c2941ffd0191f96456a5f3.sgf"><img src="../../diagrams/37/006a7e6624c2941ffd0191f96456a5f3.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>흑이 백 5점을 잡음</p></div>
+
+<p>흑의 <img src='../../images/stones/b1.gif' alt='B1' class='stone'> 는 포위된 5개의 백 돌을 잡습니다. 이 흑은 백의 마지막 바깥수를 차지하기 때문입니다. 백은 이제 바깥수가 없기 때문에 잡혀서 제거됩니다.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag20'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/11/4e0d49af66da54c7198e685bb083d946.sgf"><img src="../../diagrams/11/4e0d49af66da54c7198e685bb083d946.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 잡은 후</p></div>
+
+<p><br clear=all>
+</p>
+
+<p><a name='example4'></a>
+</p>
+
+<h3><a name='toc11'></a>예제 4: 바깥수가 없는 돌을 잡는 법
+</h3>
+
+<p>이 예제는 잡힌 돌들이 제거될 때까지 바깥수를 가질 필요가 없다는 규칙을 보여줍니다.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag21'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/34/bbe00764877c47ca1a391e00f9c40a9f.sgf"><img src="../../diagrams/34/bbe00764877c47ca1a391e00f9c40a9f.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 잡기 전</p></div>
+<div style="clear:both;height:1px"></div></div><div><a name='diag22'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/30/7976158ea229524de3a2d548cccc8ea6.sgf"><img src="../../diagrams/30/7976158ea229524de3a2d548cccc8ea6.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>백이 흑의 돌을 잡음</p></div>
+
+<p>백 <img src='../../images/stones/w1.gif' alt='W1' class='stone'>은 두점의 흑의 마지막 바깥수를 차지하고 있습니다. 참고로 <img src='../../images/stones/w1.gif' alt='W1' class='stone'>은 바깥수가 없지만 착수 가능한 곳입니다.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag23'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/4/f64b00b9a38e7b3de63d9b230f2a6c22.sgf"><img src="../../diagrams/4/f64b00b9a38e7b3de63d9b230f2a6c22.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>돌을 잡은 후</p></div>
+
+<p>이제 <img src='../../images/stones/ws.gif' alt='white+square' class='stone'> 는 다시 바깥수를 얻었고, <a href="../L/legalposition.html">착수가능 지점</a>을 유지합니다.
+</p>
+<div style="clear:both;height:1px"></div></div>
+<div class="hr"><hr></div>
+
+<h2><a name='toc12'></a>8. No Repetition
+</h2>
+
+<p><strong>The repetition rule:</strong> 이전 바둑판 지점을 반복하는 수는 둘 수 없습니다.
+</p>
+
+<p>이 규칙은 플레이어가 끝없이 앞뒤로 돌을 잡고 또 잡는 것을 방지합니다.
+</p>
+<div><a name='diag24'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/37/0708d56ffed33ef1058f0185803a7f46.sgf"><img src="../../diagrams/37/0708d56ffed33ef1058f0185803a7f46.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>장면도</p></div>
+<div style="clear:both;height:1px"></div></div><div><a name='diag25'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/47/00bb7694a7980ec3018ee6a2e721f212.sgf"><img src="../../diagrams/47/00bb7694a7980ec3018ee6a2e721f212.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>착수가능한 수</p></div>
+
+<p>백의 <img src='../../images/stones/w1.gif' alt='W1' class='stone'>은 돌을 제거합니다.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag26'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/28/8da1b11165650ffa0964df5ff2debbe1.sgf"><img src="../../diagrams/28/8da1b11165650ffa0964df5ff2debbe1.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>착수불가능한 수</p></div>
+
+<p>흑 <img src='../../images/stones/b2.gif' alt='B2' class='stone'>는 백돌 <img src='../../images/stones/w1.gif' alt='W1' class='stone'>를 제거합니다. 그러나, <img src='../../images/stones/b2.gif' alt='B2' class='stone'>는 <img src='../../images/stones/w1.gif' alt='W1' class='stone'>직전 위치인 이전 지점을 반복합니다.
+</p>
+
+<p><br clear=all>
+</p>
+
+<p>이 규칙은 바둑판 지점의 반복을 금지하므로, 예제에서는 흑이 <img src='../../images/stones/b2.gif' alt='B2' class='stone'>로 둘 수 없습니다. 흑은 다른 곳에 두어야 합니다.
+</p>
+
+<p>Note that on subsequent turns, the same move may be available as a legal move, because it will not be repeating the same board position.
+</p>
+
+<p>이 규칙에 대한 자세한 내용은 <a href="../K/ko.html">패</a> 를 참조하십시오.
+</p>
+<div style="clear:both;height:1px"></div></div>
+<div class="hr"><hr></div>
+
+<p><em>특별한 규칙 없이 같은 돌들의 반복적인 포획이 가능한 상황을 <a href="../K/ko.html">패</a>라고 부릅니다; <a href="../K/kofight.html">패싸움</a>은 이 게임의 가장 흥미로운 부분들 중 하나가 될 수 있습니다.</em>
+</p>
+
+<div class="hr"><hr></div>
+
+<h2><a name='toc13'></a>9. 마무리
+</h2>
+
+<p><strong>승리 규칙:</strong> 가장 많은 집을 획득한 플레이어가 게임에서 이깁니다.
+</p>
+
+<p>어느 플레이어도 계속 바둑판에 돌을 두고 싶어하지 않을 때는 각각 통과를 하게 됩니다 (게임이 거의 끝났을 때에만 좋지만, 통과는 항상 합법적인 수입니다!). 그리고 집 많은 플레이어가 이깁니다.
+</p>
+
+<p>집을 계산하는 방법에는 영역점수(중국룰이라고도 함) 과 집 점수(일본룰이라고도 함) 두 가지가 있습니다. 두 시스템 모두 한 플레이어의 돌에 둘러싸인 비어 있는 지점의 수인 <a href="../T/territory.html">집</a>을 세지만, 돌의 수는 서로 다릅니다. 어느 경우든, 각 플레이어는 총점을 받고 더 큰 점수를 받은 사람은 게임에서 이깁니다. 대부분의 게임에서 두 시스템은 동일한 점수 차이를 제공하고 동일한 승자를 부여합니다.
+</p>
+
+<ul><li> In area scoring, the score is territory plus the number stones the player has left on the board.
+<li> In territory scoring, the score is territory minus the number of stones the opponent has captured.
+</ul>
+
+<p>The example below uses area scoring.
+</p>
+<div><a name='diag27'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/45/ff265551b5eaeef70caab9e242f62295.sgf"><img src="../../diagrams/45/ff265551b5eaeef70caab9e242f62295.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>Final position</p></div>
+<div style="clear:both;height:1px"></div></div><div><a name='diag28'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/40/3ff9cd3e19e8b811ed2be9793cfb9024.sgf"><img src="../../diagrams/40/3ff9cd3e19e8b811ed2be9793cfb9024.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>흑의 집수</p></div>
+
+<p>이 모양에서, 흑은 6집이 있으며Black controls 6 points of territory and has 7 points occupied by black stones. Thus, Black has a total of <strong>13 points</strong>.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag29'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/19/8c7a43d357f5cf6e31964461e4e8bf60.sgf"><img src="../../diagrams/19/8c7a43d357f5cf6e31964461e4e8bf60.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>백의 집수</p></div>
+
+<p>Meanwhile, White controls 5 points of territory and has 7 points occupied by white stones. Thus, White has a total of <strong>12 points</strong>.
+</p>
+
+<p><br clear=all>
+</p>
+
+<p>In the example, Black controls more points. Therefore, Black wins the game.
+</p>
+<div style="clear:both;height:1px"></div></div><div><a name='diag30'></a><div class='diagclear'></div><div class='diagram' style='width:160px'><a href="../../diagrams/45/ff265551b5eaeef70caab9e242f62295.sgf"><img src="../../diagrams/45/ff265551b5eaeef70caab9e242f62295.png" alt="[Diagram]"  border=0 width='119' height='119'></a><p>Final position</p></div>
+<div style="clear:both;height:1px"></div></div>
+<div class="hr"><hr></div>
+
+<p><em>지금까지 참을 만큼 참았습니다! 이제 바둑을 둘 수 있습니다.</em>
+</p>
+
+<div class="hr"><hr></div>
+
+<h2><a name='toc14'></a>10. 추가 자료
+</h2>
+
+<p>이 페이지는 바둑 게임에 대한 첫 번째 기본 소개입니다. 소개로서, 그것은 규칙의 정확한 표현에 따라 다르게 결정되는 이상한 사건의 모범으로 독자를 압도하려고 하지 않습니다. 이 규칙에서, 만약 정확한 독자들이 불일치를 발견하거나, 열성적인 초보자들이 그들의 게임에서 모호한 상황을 마주한다면, 그들은 상담하기를 원할지도 모릅니다.
+</p>
+
+<ul><li> 추가 세부정보를 위한 <a href="../R/rulesofgosecondtutorial.html">바둑의 규칙 - 두 번째 지침서</a>
+</ul>
+
+<p>두 번째 지침서는 자주 묻는 질문을 다루고, 일관된 규칙들을 만들 때 더 좋은 점을 소개하고, 여러 바둑 협회들이 가끔 다른 규칙을 갖는 이유를 설명하는 것을 목표로 합니다. 그러나, 그것은 여전히 독자가 아직 게임에 대한 좋은 직관적 감각을 가지고 있지 않다고 가정합니다. 좀 더 심도있는 것을 알고 싶으면, 보십시오.
+</p>
+
+<ul><li> <a href="../R/rulesofgo.html">바둑의 규칙</a>
+</ul>
+
+<p>바둑의 규칙을 좀 더 이해한다고 해서 바둑을 더 잘 두는 것은 아닙니다. 세계적으로 바둑의 규칙에는 몇 가지 사소한 변형이 있지만, 이러한 변형이 플레이에게 영향을 미치는 경우는 상당히 드뭅니다. 초보자가 마주하는 혼란은, 대부분 두는 방법이 아니라 잘 두는 방법에 관한 것입니다.
+</p>
+
+<ul><li> <a href="../B/beginnerstudysection.html">Beginner study section</a>
+</ul>
+
+<p>These pages should help with the first questions arising from practical play. For other pages aimed at beginners, see
+</p>
+
+<ul><li> <a href="../P/pagesforbeginners.html">Pages for Beginners</a>
+</ul>
+<div><a name='diag31'></a><div class='diagclear'></div><div class='diagram' style='width:221px'><a href="../../diagrams/32/92ed0df0b4886bf766c0db7991e91c79.sgf"><img src="../../diagrams/32/92ed0df0b4886bf766c0db7991e91c79.png" alt="[Diagram]"  border=0 width='211' height='211'></a><p>corner</p></div>
+<div style="clear:both;height:1px"></div></div>        </div>
+
+        <br clear="all">
+        
+        <div id="pgfooter">
+            This is a copy of the living page
+            <A HREF="https://senseis.xmp.net/?RulesOfGoIntroductory">"Rules of Go - introductory"</A> at
+            <A HREF="https://senseis.xmp.net/">Sensei's Library</A>.
+            <br>
+            <small><img src="../../images/oc-small.gif" alt="(OC)"> 2019 the Authors,
+                published under the <A HREF="https://senseis.xmp.net/?SLCopyright">OpenContent License V1.0</A>.
+            </small>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="leftpane" class="left-mainpage">
+    <a href="../F/frontpage.html"><img src="../../images/stone-hello.png" width=80 height=100 border=0
+                                     ALT="[Welcome to Sensei's Library!]" title="Sensei's Library"></a>
+    <div id="bookmarks">
+        <a accesskey='1' title='[alt+1]' href="../S/startingpoints.html">시작점</a><br>
+        <a accesskey='2' title='[alt+2]' href="../R/referencesection.html">참조 섹션</a><br>
+        <a accesskey='3' title='[alt+3]' href="../S/senseislibrary.html">관하여</a>
+    </div>
+    <div id="related"><p><b>별칭 (정보)</b><br><span class="link">바둑의 기본규칙</span>
+</p><p><b>서브 페이지</b><br><a href="../R/rulesofgointroductory-discussion.html">토론</a></p><p><b>참조 대상</b><br><a href="../G/go.html">바둑</a><br><a href="../T/twoeyes.html">두 눈</a><br><a href="../R/rulesofgo.html">바둑의 규칙</a><br><a href="../S/scoring.html">집계산</a><br><a href="../R/ruleofcapture.html">돌을 잡는 규칙</a><br><a href="../P/passing.html">통과</a><br><a href="../B/black.html">흑</a><br><a href="../W/white.html">백</a><br><a href="../R/referencesection.html">ReferenceSection</a><br><a href="../G/goonaboardwithoutlines.html">GoOnABoardWithout...</a><br><a href="../S/smallboardgo.html">SmallBoardGo</a><br><a href="../P/pagesforbeginners.html">PagesForBeginners</a><br><a href="../R/rulesofgosecondtutorial.html">RulesOfGoSecondTu...</a><br><a href="../H/howtousewiki-editingdiscussions.html">HowToUseWiki/Edit...</a><br><a href="../T/tourbusstop.html">TourBusStop</a><br><a href="../H/howtousewiki-editingfreedom.html">HowToUseWiki/Edit...</a><br><a href="../P/pagedifficultydiscussion.html">PageDifficultyDis...</a><br><a href="../S/stoicalgo.html">StoicalGo</a><br><a href="../G/goonaboardwithoutlines-discussion.html">GoOnABoardWithout...</a><br><a href="../E/examplegame.html">ExampleGame</a></p><p><b>Homepages</b><br><a href="../B/beginnerstudysection.html">BeginnerStudySection</a><br><a href="../D/darrell.html">Darrell</a></p></div>
+</div>
+
+</body>
+</html>
